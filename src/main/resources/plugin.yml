@@ -1,0 +1,14 @@
+name: Credit
+version: ${project.version}
+main: com.goucraft.credit.Main
+api-version: 1.13
+authors: [GluttonFox]
+depend: [SQLibrary]
+commands:
+  CreditAdmin:
+    description: 管理命令
+    permission: Credit.admin
+    permission-message: 你没有权限
+    aliases: [ca]
+  Credit:
+    description: 查看点券
